@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0
+}
+
+.container {
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;  
+    display: flex;
+}
+
+.conteudo {
+    gap: 40px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.logo {
+    padding-bottom: 40px;
+    
+}
+
+.titulo span h1 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0 0 30px 0;
+    
+}
+   
+.perfil {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.cards {
+    width: 700px;
+    padding: 0px 0 0 0;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.foto img {
+    
+    border-radius: 10px;
+    border: transparent solid 2px;
+    transition: 1s; 
+}
+
+
+.foto img:hover {
+    border: #fff solid 2px;
+    transition: 0.7s; 
+    
+}
+
+.foto2 img {
+    transition: 1s; 
+    filter:brightness(none);
+}
+
+.foto2 img:hover {
+    filter:brightness(3);
+    transition: 0.7s; 
+}
+
+
+
+.botao {
+    width: 250px;
+    height: 50px;
+    /* background-color: rgb(230, 208, 81); */
+    padding: 100px 0 0 0;
+    align-items: center;
+    display: flex; 
+}
+
+.botao span a {
+    margin: 0 auto;
+    background-color: rgb(20, 20, 20);
+    padding: 15px 50px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 2px;
+    border-radius: 15px;
+    transition: 0.7s; 
+}
+
+.botao span a:hover {
+    background-color: #fff;
+    color: rgb(20, 20, 20);;
+    transition: 0.7s; 
+}
+
+.nome {
+    color: #9C9C9C;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 1.5s;  
+}
+
+
+
+#img1:hover + #nome1 {
+    color:#fff;
+    transition: 0.7s;  
+}
+
+#img2:hover + #nome2 {
+    color:#fff;
+    transition: 0.7s;  
+}
+
+#img3:hover + #nome3 {
+    color:#fff;
+    transition: 0.7s;  
+}
+
+#img4:hover + #nome4 {
+    color:#fff;
+    transition: 0.7s;  
+}
